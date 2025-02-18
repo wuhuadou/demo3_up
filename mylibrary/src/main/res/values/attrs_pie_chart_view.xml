@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="PieChartView">
+        <attr name="circle_Radius" format="dimension" />
+        <attr name="text_Size" format="dimension" />
+        <attr name="exampleDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>

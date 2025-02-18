@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp">
+
+
+    <TextView
+        android:id="@+id/tv_title_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/imgv_list"
+        android:ellipsize="end"
+        android:lineSpacingExtra="3dp"
+        android:textColor="#43496A"
+        android:textSize="15sp"
+        tools:text="课本1" />
+
+    <ImageView
+        android:id="@+id/imgv_list"
+        android:layout_width="87dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/imgv_zan"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_title_item"
+        android:src="@mipmap/zan"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/imgv_pl"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/imgv_zan"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_title_item"
+        android:src="@mipmap/pl"
+        android:scaleType="fitXY" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_theme_bg"/>
+
+</RelativeLayout>
